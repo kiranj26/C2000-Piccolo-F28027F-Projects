@@ -2,6 +2,8 @@
 
 Welcome to the C2000 Piccolo F28027F Projects repository! This repository is dedicated to exploring and leveraging the capabilities of the Texas Instruments C2000 Piccolo LaunchPad Evaluation Kit (LAUNCHHXL-F28027F). Here, you'll find a collection of projects, examples, and resources that will help you get the most out of this powerful microcontroller. This repository will be my playground to try my hands on this hardware.
 
+![C2000 Piccolo F28027F LaunchPad](https://www.ti.com/medias/sys_master/images/images/hea/h1d/8796566487070/launchxl-f28027f.jpg)
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
