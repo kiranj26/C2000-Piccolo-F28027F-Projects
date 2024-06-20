@@ -67,4 +67,26 @@ The main function initializes the system control and GPIO, configures the PIE co
 - [C2000 Getting Started Guide](https://www.ti.com/lit/an/spracg5/spracg5.pdf)
 - [C2000 Real-Time Control MCUs Forum](https://e2e.ti.com/support/microcontrollers/c2000/f/171)
 - [TI Training on C2000](https://training.ti.com/c2000-real-time-mcus)
-- [C2000 Workshop](https://software-dl.ti.com/trainingTTO/trainingTTO_public_sw/C2000%20Piccolo%20One-D
+- [C2000 Workshop](https://software-dl.ti.com/trainingTTO/trainingTTO_public_sw/C2000%20Piccolo%20One-Day%20Workshop.pdf)
+- [Embedded Advantage - C2000 Resources](https://www.embeddedadvantage.com/c2000)
+- [C2000 Piccolo One-Day Workshop Material](https://software-dl.ti.com/trainingTTO/trainingTTO_public_sw/C2000%20Piccolo%20One-Day%20Workshop.zip)
+- [Application Notes for C2000](https://www.ti.com/microcontrollers-mcus-processors/microcontrollers/c2000-real-time-control-mcus/products.html#p2794=F28027&view=appnotes)
+- [F2802x Microcontroller Workshop](http://processors.wiki.ti.com/images/c/c7/F2802x_Microcontroller_Workshop.pdf)
+- [C2000 Real-Time Control MCU Online Training](https://training.ti.com/c2000-real-time-mcus?context=1137707-1137705)
+- [C2000 GitHub Repository](https://github.com/TexasInstruments/c2000ware)
+- [C2000 Microcontroller Application Videos](https://www.youtube.com/playlist?list=PLISmVLHAZbTOgUeZb-0dd1ecM4p0T5r-b)
+- [C2000 System Framework](https://www.ti.com/tool/C2000-SYSFW)
+
+## Contributing
+Contributions are welcome! If you have a project or example you'd like to share, please fork the repository, create a new branch, and submit a pull request. Make sure to follow the coding standards and include a detailed description of your project.
+
+## License
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+---
+
+Happy coding!
+
+**Kiran Jojare**  
+*Embedded Software / Firmware Engineer*  
+kijo7257@colorado.edu
