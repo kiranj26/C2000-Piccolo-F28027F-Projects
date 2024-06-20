@@ -29,32 +29,60 @@ To get started with the projects in this repository, you'll need the following t
 1. Download and install [Code Composer Studio (CCS)](https://www.ti.com/tool/CCSTUDIO).
 2. Download and install [C2000Ware](https://www.ti.com/tool/C2000WARE).
 
-## Projects
+## Repository Structure
+
+- [Blinking LED](#blinking-led)
+- [I2C](#i2c)
+  - [I2C Master](#i2c-master)
+  - [I2C Slave](#i2c-slave)
+- [SPI](#spi)
+  - [SPI Master](#spi-master)
+  - [SPI Slave](#spi-slave)
+- [Timers](#timers)
+  - [Timer0](#timer0)
+  - [Timer1](#timer1)
+  - [Timer2](#timer2)
+- [PWM](#pwm)
+  - [PWM Generation](#pwm-generation)
+- [UART](#uart)
+  - [UART Interrupt](#uart-interrupt)
+- [CAN](#can)
+  - [CAN Transmit](#can-transmit)
+  - [CAN Receive](#can-receive)
+- [ADC](#adc)
+  - [ADC Read](#adc-read)
+
+## Examples
 
 ### Blinking LED
-This is the classic "Hello World" project for microcontrollers. It demonstrates how to configure GPIO pins and create a simple LED blinking pattern.
-- **File**: `examples/blinking_led/main.c`
-- **Description**: This example configures a GPIO pin as an output and toggles the LED in a loop.
+- [Blinking LED](https://github.com/kiranj26/C2000-Piccolo-F28027F-Projects/tree/main/examples/Blinking_LED)
 
-### PWM Generation
-This project demonstrates how to generate Pulse Width Modulation (PWM) signals using the PWM modules on the F28027F.
-- **File**: `examples/pwm_generation/main.c`
-- **Description**: This example configures the PWM modules to generate a PWM signal with a specific duty cycle and frequency.
+### I2C
+- [I2C Master](https://github.com/kiranj26/C2000-Piccolo-F28027F-Projects/tree/main/examples/I2C/I2C_Master)
+- [I2C Slave](https://github.com/kiranj26/C2000-Piccolo-F28027F-Projects/tree/main/examples/I2C/I2C_Slave)
 
-### ADC and Sensor Integration
-Learn how to interface sensors using the Analog-to-Digital Converter (ADC) on the F28027F.
-- **File**: `examples/adc_sensor_integration/main.c`
-- **Description**: This example configures the ADC to read analog values from a connected sensor and process the data.
+### SPI
+- [SPI Master](https://github.com/kiranj26/C2000-Piccolo-F28027F-Projects/tree/main/examples/SPI/SPI_Master)
+- [SPI Slave](https://github.com/kiranj26/C2000-Piccolo-F28027F-Projects/tree/main/examples/SPI/SPI_Slave)
 
-### Motor Control
-Utilize the specialized motor control capabilities of the F28027F for controlling various types of motors.
-- **File**: `examples/motor_control/main.c`
-- **Description**: This project demonstrates controlling a DC motor using PWM signals and feedback from an encoder.
+### Timers
+- [Timer0](https://github.com/kiranj26/C2000-Piccolo-F28027F-Projects/tree/main/examples/Timers/Timer0)
+- [Timer1](https://github.com/kiranj26/C2000-Piccolo-F28027F-Projects/tree/main/examples/Timers/Timer1)
+- [Timer2](https://github.com/kiranj26/C2000-Piccolo-F28027F-Projects/tree/main/examples/Timers/Timer2)
 
-### Digital Signal Processing
-Implement and test digital signal processing (DSP) algorithms on the F28027F.
-- **File**: `examples/dsp_algorithms/main.c`
-- **Description**: This project showcases the DSP capabilities of the F28027F by implementing a simple filtering algorithm.
+### PWM
+- [PWM Generation](https://github.com/kiranj26/C2000-Piccolo-F28027F-Projects/tree/main/examples/PWM/PWM_Generation)
+
+### UART
+- [UART Interrupt](https://github.com/kiranj26/C2000-Piccolo-F28027F-Projects/tree/main/examples/UART/UART_Interrupt)
+
+### CAN
+- [CAN Transmit](https://github.com/kiranj26/C2000-Piccolo-F28027F-Projects/tree/main/examples/CAN/CAN_Transmit)
+- [CAN Receive](https://github.com/kiranj26/C2000-Piccolo-F28027F-Projects/tree/main/examples/CAN/CAN_Receive)
+
+### ADC
+- [ADC Read](https://github.com/kiranj26/C2000-Piccolo-F28027F-Projects/tree/main/examples/ADC/ADC_Read)
+
 
 ## Resources
 - [C2000 Piccolo F28027F Datasheet](https://www.ti.com/lit/ds/symlink/tms320f28027.pdf)
